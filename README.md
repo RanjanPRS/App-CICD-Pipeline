@@ -1,7 +1,7 @@
 # App CI/CD Pipeline
 
 ## Description
-This CI/CD Pipeline automates software delivery from code to deployment. Jenkins orchestrates the process, integrating Maven for builds, SonarQube for code quality, and Trivy for image security. Docker containers are built and stored in Amazon ECR. Kubernetes clusters, managed with kubeadm, deploy the application. Prometheus and Grafana monitor system and website health.
+This CI/CD Pipeline automates software delivery from code to deployment. Jenkins orchestrates the process, integrating Maven for builds, SonarQube for code quality, and Trivy for image security. Docker containers are built and stored in Docker Registry. Kubernetes clusters, managed with kubeadm, deploy the application. Prometheus and Grafana monitor system and website health.
 
 ## Tools Used
 - Jenkins
